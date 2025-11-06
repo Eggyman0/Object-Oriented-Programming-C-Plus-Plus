@@ -80,9 +80,9 @@ void Game::battleRound() {
     RPG *player1 = players[playerIndex1];
     RPG *player2 = players[playerIndex2];
 
-    while((player1->getHitsTaken() < 3) && (player2->getHitsTaken() < 3)){
+    while((player1->isAlive()) && (player2->isAlive())){
         player1->attack(player2);
-        if(player2->getHitsTaken() < 3){
+        if(player2->isAlive()){
             player2->attack(player1);
         }
     }

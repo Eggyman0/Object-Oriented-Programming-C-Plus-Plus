@@ -11,7 +11,6 @@ RPG::RPG(){
     luck = 0.1;
     exp = 50.0;
     level = 1;
-    //inventory.push_back("potion");
 }
 
 /**
