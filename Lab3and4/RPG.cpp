@@ -1,6 +1,4 @@
-//RPG.cpp
-#include <iostream>
-#include <random>
+// RPG.cpp
 #include "RPG.h"
 
 /**

@@ -1,8 +1,10 @@
+// Game.h
 #ifndef GAME_H
 #define GAME_H
 #include <vector>
 #include <string>
 #include <set>
+#include <random>
 #include "RPG.h"
 using namespace std;
 
